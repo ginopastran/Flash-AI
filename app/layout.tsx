@@ -9,8 +9,11 @@ import { CrispProvider } from "@/components/CrispProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Genius",
+  title: "Flash AI",
   description: "AI Platform",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
